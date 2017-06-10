@@ -32,6 +32,12 @@
         "phpunit/phpunit": "~5.0",
         "mockery/mockery": "~0.9"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:weijian1/l5-repository.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "InfyOm\\Generator\\": "src/"
